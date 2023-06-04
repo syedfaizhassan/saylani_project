@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .budget-section,
+  .expense-section,
+  .data-section {
+    margin: 20px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  input[type="date"],
+  button {
+    margin: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  #remaining-budget {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
